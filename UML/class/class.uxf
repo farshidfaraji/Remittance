@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>140</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Login
+--
+-username : String
+-password : String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>230</y>
+      <w>160</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>user
+--
+-Frestname : String
+-Lastname : String
+-username : String
+-password : String
+-phone : String
+-Email : String
+-photo : binery
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>140</y>
+      <w>280</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>remittance
+--
+-LoadInformation : loadInformation
+-DriverInformation : driverInformatio
+-Rent : rent
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>140</y>
+      <w>210</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>LoadInformation
+--
+-IdRemittance : int
+-date : date
+-username : user
+-sender : String
+-origin : String
+-addressOrigin : String
+-receivar : String
+-dstination : String
+-addressDstination : String
+-produntType : String
+-quantity : int
+-insuranceValue : String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>250</y>
+      <w>180</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>DriverInformation
+--
+-nameDriver : String
+-smartDriver : String
+-phonenamber : String
+-typrCar : String
+-carTrail : String
+-plague : String
+-seriesPlague : String
+-smartCar : String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>140</y>
+      <w>270</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Rent
+--
+-loanRent : String
+-cashRent : String
+-remainingCommission : String
+-cashCommission : String
+-cardCommission : String
+-descriptionCardCommission : String
+-intermediation : String
+description : String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
